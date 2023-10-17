@@ -13,7 +13,7 @@ function App() {
 
 	return (
 		<>
-			<h2>Digi app!!!</h2>
+			<h2>Docker app, CLick to load data from db</h2>
 			<button onClick={fetchDigimons}>Load Digimons</button>
 			<div style={{ display: "flex", flexWrap: "wrap" }}>
 				{digimons.map((digimon) => (
